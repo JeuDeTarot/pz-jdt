@@ -21,6 +21,7 @@ RUN echo "**** apt upgrade ****" \
 
 RUN echo "**** Install Base Requirements ****" \
     && apt-get update \
+    && apt-get install -y software-properties-common \
     && apt-get-repository multiverse \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
