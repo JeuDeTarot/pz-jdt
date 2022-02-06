@@ -40,6 +40,7 @@ RUN echo "**** Install Base Requirements ****" \
     jq \
     # Network
     curl \
+    git \
     hostname \
     netcat \
     iproute2 \
