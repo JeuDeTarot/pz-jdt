@@ -117,7 +117,7 @@ RUN echo "**** Create /opt/admin ****" \
 ## Download main.sh
 RUN echo "**** Download main.sh ****" \
     && set -ex \
-    && wget -O main.sh https://main.sh \
+    && wget -O main.sh https://github.com/JeuDeTarot/pz-jdt/blob/master/pzds/scripts/main.sh \
     && chmod +x /main.sh
 
 WORKDIR /home/$USRA
