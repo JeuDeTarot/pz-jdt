@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 LABEL maintainer='jeudetarot <https://steamcommunity.com/id/jeudetarot_1>' \
-      version="1.0"
+      version="1.0" \
       original='LinuxGSM <me@danielgibbs.co.uk>'
 
 ENV DEBIAN_FRONTEND noninteractive
